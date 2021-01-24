@@ -1,36 +1,55 @@
 package cinema
 
 fun main() {
-    val numRows = queryNumRows()
-    val seatsPerRow = querySeatsPerRow()
-    val roomProfit = calcRoomProfit(numRows,seatsPerRow)
-    println("Total Income:")
-    println("$$roomProfit")
+    val theatre = queryTheatreSize()
+    do {
+        println()
+        val choice = queryMenuChoice()
+        println()
+        when (choice) {
+            1 -> showTheatre(theatre)
+            2 -> purchaseSeat(theatre)
+        }
+    } while (choice != 0)
 }
 
-fun queryNumRows(): Int {
+fun queryTheatreSize(): Array<CharArray> {
     println("Enter the number of rows:")
-    return readLine()!!.toInt()
-}
-
-fun querySeatsPerRow(): Int {
+    val numRows = readLine()!!.toInt()
     println("Enter the number of seats in each row:")
-    return readLine()!!.toInt()
-}
-
-fun calcRoomProfit(numRows: Int, seatsPerRow: Int): Int {
-    val numSeats = numRows * seatsPerRow
-    return if (numSeats <= 60) numSeats * 10 else {
-        val front = numRows / 2
-        val back = if (numRows % 2 == 0) front else front + 1
-        front * seatsPerRow * 10 + back * seatsPerRow * 8
+    val seatsPerRow = readLine()!!.toInt()
+    return Array(numRows) {
+        CharArray(seatsPerRow) { 'S' }
     }
 }
 
-fun printLayout(){
+fun queryMenuChoice(): Int {
+    println("1. Show the seats\n2. Buy a ticket\n0. Exit")
+    return readLine()!!.toInt()
+}
+
+fun showTheatre(theatre : Array<CharArray>) {
     println("Cinema:")
-    println("  1 2 3 4 5 6 7 8 ")
-    for (i in 1..7) {
-        println("$i S S S S S S S S")
+    val header = IntArray(theatre[0].size){it + 1}
+    println("  ${header.joinToString(" ")}")
+    for (i in theatre.indices) {
+        println("${i + 1} ${theatre[i].joinToString(" ")}")
+    }
+}
+
+fun purchaseSeat(theatre : Array<CharArray>) {
+    println("Enter a row number:")
+    val rowNum =  readLine()!!.toInt()
+    println("Enter a seat number in that row:")
+    val seatNum =  readLine()!!.toInt()
+    println("Ticket Price: $${calcSeatPrice(rowNum,theatre.size,theatre[0].size)}")
+    theatre[rowNum - 1][seatNum - 1] = 'B'
+}
+
+fun calcSeatPrice(rowNum : Int,numRows : Int,seatsPerRow : Int) : Int {
+    val numSeats = numRows * seatsPerRow
+    return if (numSeats <= 60) 10 else {
+        val front = numRows / 2
+        return if (rowNum <= front) 10 else 8
     }
 }

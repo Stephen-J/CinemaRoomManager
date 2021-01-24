@@ -8,18 +8,26 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Cinema Room Manager/task" />
+            <option value="$PROJECT_DIR$/Problems/A simple calculator" />
             <option value="$PROJECT_DIR$/Problems/Accordance" />
             <option value="$PROJECT_DIR$/Problems/Adding arrays" />
+            <option value="$PROJECT_DIR$/Problems/Check the numbers" />
             <option value="$PROJECT_DIR$/Problems/Corners" />
             <option value="$PROJECT_DIR$/Problems/Counting" />
             <option value="$PROJECT_DIR$/Problems/Cube of zeros" />
+            <option value="$PROJECT_DIR$/Problems/Cyclically shifting elements" />
+            <option value="$PROJECT_DIR$/Problems/Direction" />
             <option value="$PROJECT_DIR$/Problems/Empty" />
+            <option value="$PROJECT_DIR$/Problems/FTN-Numbers" />
+            <option value="$PROJECT_DIR$/Problems/Find the max" />
+            <option value="$PROJECT_DIR$/Problems/Floor-space of the room" />
+            <option value="$PROJECT_DIR$/Problems/From string to a number" />
             <option value="$PROJECT_DIR$/Problems/Guard On The Gate" />
+            <option value="$PROJECT_DIR$/Problems/Harry Potter" />
             <option value="$PROJECT_DIR$/Problems/Help the Lord Commander" />
             <option value="$PROJECT_DIR$/Problems/Individual taxes" />
             <option value="$PROJECT_DIR$/Problems/Initializing an array" />
@@ -27,12 +35,22 @@
             <option value="$PROJECT_DIR$/Problems/Initializing an array of integers" />
             <option value="$PROJECT_DIR$/Problems/Initializing an array of longs" />
             <option value="$PROJECT_DIR$/Problems/Initializing an array of longs (1)" />
+            <option value="$PROJECT_DIR$/Problems/Is it here" />
+            <option value="$PROJECT_DIR$/Problems/Just checking" />
+            <option value="$PROJECT_DIR$/Problems/Just checking (1)" />
             <option value="$PROJECT_DIR$/Problems/Kotlin arrays" />
+            <option value="$PROJECT_DIR$/Problems/Right Rotation" />
+            <option value="$PROJECT_DIR$/Problems/Shape" />
             <option value="$PROJECT_DIR$/Problems/Shapeshifter" />
+            <option value="$PROJECT_DIR$/Problems/String processor" />
             <option value="$PROJECT_DIR$/Problems/Swap elements" />
+            <option value="$PROJECT_DIR$/Problems/The army of units" />
+            <option value="$PROJECT_DIR$/Problems/The max of two numbers without else-branch" />
             <option value="$PROJECT_DIR$/Problems/The minimum value of N numbers" />
+            <option value="$PROJECT_DIR$/Problems/The number of digits" />
             <option value="$PROJECT_DIR$/Problems/The sum of digits" />
             <option value="$PROJECT_DIR$/Problems/The sum of elements" />
+            <option value="$PROJECT_DIR$/Problems/Triples" />
             <option value="$PROJECT_DIR$/Problems/Yet another array" />
             <option value="$PROJECT_DIR$/util" />
           </set>
