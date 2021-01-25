@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/Problems/A simple calculator" />
             <option value="$PROJECT_DIR$/Problems/Accordance" />
             <option value="$PROJECT_DIR$/Problems/Adding arrays" />
+            <option value="$PROJECT_DIR$/Problems/Cause an exception" />
             <option value="$PROJECT_DIR$/Problems/Check the numbers" />
             <option value="$PROJECT_DIR$/Problems/Corners" />
             <option value="$PROJECT_DIR$/Problems/Counting" />
@@ -22,8 +23,11 @@
             <option value="$PROJECT_DIR$/Problems/Cyclically shifting elements" />
             <option value="$PROJECT_DIR$/Problems/Direction" />
             <option value="$PROJECT_DIR$/Problems/Empty" />
+            <option value="$PROJECT_DIR$/Problems/Evaluate an expression" />
             <option value="$PROJECT_DIR$/Problems/FTN-Numbers" />
             <option value="$PROJECT_DIR$/Problems/Find the max" />
+            <option value="$PROJECT_DIR$/Problems/Fix compile-time errors" />
+            <option value="$PROJECT_DIR$/Problems/Fix the program" />
             <option value="$PROJECT_DIR$/Problems/Floor-space of the room" />
             <option value="$PROJECT_DIR$/Problems/From string to a number" />
             <option value="$PROJECT_DIR$/Problems/Guard On The Gate" />
@@ -51,6 +55,7 @@
             <option value="$PROJECT_DIR$/Problems/The sum of digits" />
             <option value="$PROJECT_DIR$/Problems/The sum of elements" />
             <option value="$PROJECT_DIR$/Problems/Triples" />
+            <option value="$PROJECT_DIR$/Problems/What's wrong" />
             <option value="$PROJECT_DIR$/Problems/Yet another array" />
             <option value="$PROJECT_DIR$/util" />
           </set>
